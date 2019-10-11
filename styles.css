@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	padding: 0;
+	margin: 36px 0 0 0;
+	background-color: #6D0019;
+	background-image: url(images/body_bg.jpg);
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+h1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 30px;
+	line-height: 38px;
+	font-weight: bold;
+	color: #42241B;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	padding-left: 82px;
+	padding-bottom: 4px;
+	border-bottom: 1px dotted #005B0E;
+}
+h2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 18px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #B5032C;
+}
+p {
+	padding-bottom: 9px;
+}
+ul {
+	margin-bottom: 36px;
+	list-style-type: square;
+}
+ul li {
+	line-height: 18px;
+	padding-left: 6px;
+	padding-bottom: 12px;
+}
+a {
+	color: #26A3D7;
+	text-decoration: underline;
+}
+
+a:hover,
+a:active {
+	color: #B5032C;
+}
+
+
+/*a:active {
+	color: #B5032C;
+}
+*/
+
+
+
+
+
+
+
+#page_container {
+	padding: 30px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	width: 840px;
+	border: 1px solid #6D0019;
+	background-image: url(images/apples.jpg);
+	background-repeat: no-repeat;
+	background-position: left 18px;
+}
+.tip {
+	font-size: 12px;
+	font-style: italic;
+	line-height: 18px;
+	color: #494949;
+	border-top: 1px solid #494949;
+	padding-top: 18px;
+}
+.img_border {
+	border: 2px solid #B5032C;
+}
